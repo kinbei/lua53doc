@@ -402,7 +402,7 @@ Lua 中有三种变量：
 <pre>
 	var ::= Name
 </pre><p>
-名字指 <a href="#3.1">&sect;3.1</a> 中定义的标识符。
+Name 指 <a href="#3.1">&sect;3.1</a> 中定义的标识符。
 
 
 <p>
@@ -418,12 +418,12 @@ Lua 中有三种变量：
 
 
 <p>
-方括号被用来对表作索引：
+方括号被用来对 Table 作索引：
 
 <pre>
 	var ::= prefixexp &lsquo;<b>[</b>&rsquo; exp &lsquo;<b>]</b>&rsquo;
 </pre><p>
-对全局变量以及表的域之访问的含义可以通过元表来改变。 
+对全局变量以及 Table 的域之访问的含义可以通过元表来改变。 
 以索引方式访问一个变量 <code>t[i]</code> 等价于
 调用 <code>gettable_event(t,i)</code>。
 （参见 <a href="#2.4">&sect;2.4</a> ，有一份完整的关于
